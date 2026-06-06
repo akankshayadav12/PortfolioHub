@@ -1,12 +1,10 @@
 import React from "react";
-import Home from "./Components/HomePage";
-import SkillsSection from "./Components/SkillsSection";
+import Home from "./Components/HomePage"; 
 
 const App = () => {
   return (
     <>
       <Home />
-      
     </>
   );
 };
