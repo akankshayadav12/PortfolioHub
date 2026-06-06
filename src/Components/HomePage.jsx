@@ -1,15 +1,15 @@
 import { Box, Typography, Paper } from "@mui/material";
-import Header from "./Header";
-import ProfileImage from "./ProfileImage";
-import SocialLinks from "./SocialLinks";
-import ContactButton from "./ContactButton";
-
-import profilePic from "../assets/profile.png"; // Adjust the path as necessary
-import SkillsSection from "./SkillsSection";
-import AboutMeSection from "./AboutMeSection";
-import MyWorksSection from "./MyWorksSection";
-import ResumeSection from "./ResumeSection";
+import Header from "./Header.jsx";
+import ProfileImage from "./ProfileImage.jsx";
+import SocialLinks from "./SocialLinks.jsx";
+import ContactButton from "./ContactButton.jsx";
+import SkillsSection from "./SkillsSection.jsx";
+import AboutMeSection from "./AboutMeSection.jsx";
+import MyWorksSection from "./MyWorksSection.jsx";
+import ResumeSection from "./ResumeSection.jsx";
 import { TypeAnimation } from "react-type-animation";
+
+import profilePic from "../assets/profile.png"; // This path is correct relative to Components/
 
 const Home = () => {
   return (
